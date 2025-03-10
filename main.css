@@ -1,0 +1,454 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 8px 23px 8px;
+}
+.menu {
+    padding-left: 600px;
+    margin-right: 8px;
+}
+.logo {
+    margin-top: 8px;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+#container .titulo{
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 93px;
+    padding: 16px 0 16px 0;
+}
+#container .titulo p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19.8px;
+    letter-spacing: -8%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+#container .titulo .url p{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28.6px;
+    letter-spacing: -8%;
+    text-align: center;
+    margin-top: 0px;
+}
+#container .titulo .linha{
+    background-color: black;
+    width: 60px;
+    height: 4px;
+    margin: 6px auto;
+}
+#container .artigo1{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 199px;
+}
+#container .artigo1 .card1{
+    margin: 0 auto;
+}
+#container .artigo1 h1{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 50.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+#container .artigo1 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+#container .artigo2{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 323px;
+}
+#container .artigo2 .card3 {
+    background-image: url("imagens/Frame3.png");
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 322px;
+    min-width: 400px;
+} 
+#container .artigo2 .card4mae{
+    background-color: #F0F0F0;
+    width: 100%;
+    height:322px 
+}
+#container .artigo2 .card4mae .card4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 720px;
+    height: 227px;
+    margin: 47.5px 0 47.5px 16px;
+}
+#container .artigo2 .card4mae .card4 h2{
+    width: 600px;
+    height: 33px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    margin: 60px 60px 20px 60px;
+}
+#container .artigo2 .card4mae .card4 p{
+    width: 600px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17.6px;
+    margin: 20px 60px 60px 60px;
+}
+#container .artigo3{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 323px;
+}
+#container .artigo3 .card6 {
+    background-image: url("https://s3-alpha-sig.figma.com/img/c190/71d2/9c77fac74f2ae59752ceefbe6b0c523e?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=W~FkfYA18QUaKswLyoKI7h9v1tZgNBBh1hH34w25CmEFiRRLNneG~wt0oOqkvuj1yb~nww12ZkR9UHIMnc1TinuficEf55KoBwVbS42KYF3O-RxaFv4kHljyGbjd5r35o6lgha4k5sd7OvKV7qtKTpZsVuxFDj0mxdzm7rmwNPjizJxh9KpetXPZrSNKKRVgpvyjW0Dg6y1ONw-0b3pThiwhpHSiwlMkQZbiU3y1HsADbenBKlsYqmZsMUdAM6ocf6mkEt7STQyxvggwtDUK3nrntGsCdYd9lewxkwgHT5959h6iR6j1xArj~oo4tIkvbHH6V5lgm1YxVg7IuPwr-g__");
+    background-size: cover;
+    background-position: 100%;
+    width: 100%;
+    height: 323px;
+    gap: 6px;
+}
+#container .artigo3 .card6 h3{
+    width: 640px;
+    height: 26px;
+    max-width: 640px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.4px;
+    margin:127.5px 740px 6px 60px;
+}
+#container .artigo3 .card6 p{
+    width: 640px;
+    height: 36px;
+    max-width: 640px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17.6px;
+    margin: 6px 740px 127px 60px;
+}
+#container .artigo4 {
+    margin: 0 auto;
+    display: flex;
+}
+#container .artigo4 .card7 {
+    background-image: url("imagens/Frame 305.png");
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 315px;
+}
+#container .artigo4 .card8 {
+    background-image: url("imagens/Frame 306.png");
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 315px;
+}
+#container .artigo4 .card9 {
+    background-image: url("imagens/Frame 307.png");
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 315px;
+}
+#container .Farewell{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 165px;
+}
+#container .Farewell .textoFarewell{
+    margin: 0 auto;
+}
+#container .textoFarewell h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.4px;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+#container .textoFarewell p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.2px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+#footer{
+    width: 100%;
+    height: 208px;
+    background-color: #F0F0F0;
+    gap: 40px;
+}
+#footer .menuFooter{
+    display: flex;
+    width: 1430px;
+    height: 82px;
+    justify-content: space-between;
+    margin: 0px 0px 0px 30px;
+    padding-top: 30px;
+}
+#footer .menuFooter .menuFooter1{
+    margin: 0px 0px 0px 0px;
+    width: 395.33px;
+    height: 82px;
+}
+#footer .menuFooter .menuFooter2{
+    margin: 0px 0px 0px 0px;
+    width: 395.33px;
+    height: 82px;
+}
+#footer .menuFooter .menuFooter3{
+    margin: 0px 0px 0px 0px;
+    width: 395.33px;
+    height: 82px;
+}
+#footer .menuFooter .redeSociais{
+    width: 194px;
+    height: 64px;
+
+}
+#footer .menuFooter .redeSociais p{
+    color: #3C3C3B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17.6px;
+}
+a {
+    color: #0D0D0D;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.2px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: Auto;
+    text-decoration-skip-ink: auto;
+}
+ul {
+    text-decoration: none;
+    padding-left: 0px;
+    list-style-type: none;
+}
+#footer li {
+    letter-spacing: 0%;
+}
+#footer .informações{
+    width: 1420px;
+    height: 26px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+#footer .informações p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.2px;
+
+}
+@media screen and (max-width: 800px) {
+    
+            #header{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 20px 0 23px 0;
+            }
+            #header .menu {
+                padding-left: 171px;
+                margin-right: 16px;
+            }
+            #header .logo {
+                margin-top: 8px;
+                margin-left: 16px;
+            }
+            body {
+                margin: 0 auto;
+                width: 100%;
+                height: auto;
+            }
+            #container {
+                margin: 0 auto;
+                width: 100%;
+            }
+            #container .titulo{
+                background-color: #F0F0F0;
+                width: 100%;
+                height: 93px;
+                padding: 16px 0 16px 0;
+            }
+            #container .artigo1 {
+                width: 100%;
+                height: 221px;
+            }
+            #container .artigo1 .card1 h1{
+                width: 372px;
+                height: 51px;
+            }
+            #container .artigo1 .card1 p{
+                width: 354px;
+                height: 44px;
+            }
+            #container .artigo2{
+                flex-direction: column;
+                margin: 0 auto;
+                height: auto;
+            }
+            #container .artigo2 .card3 {
+                background-image: url("imagens/Frame3.png");
+                background-size: cover;
+                margin: 0 auto;
+                width: 100%;
+                height: 322px;
+                min-width: 400px;
+            } 
+            #container .artigo2 .card4mae{
+                background-color: #F0F0F0;
+                width: 100%;
+                height:322px 
+            }
+            #container .artigo2 .card4mae .card4{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                height: 227px;
+                margin: 47.5px 0 47.5px 0px;
+            }
+            #container .artigo2 .card4mae .card4 h2{
+                width: 292px;
+                height: 99px;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 33px;
+                margin: 60px 60px 0px 60px;
+            }
+            #container .artigo2 .card4mae .card4 p{
+                width: 292px;
+                height: 90px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 17.6px;
+                margin: 20px 60px 60px 60px;
+            }
+            #container .artigo3{
+                display: flex;
+                margin: 0 auto;
+                width: 100%;
+                height: 323px;
+            }
+            #container .artigo3 .card6 {
+                background-size: cover;
+                background-position: 100%;
+                width: 100%;
+                height: 323px;
+            }
+            #container .artigo3 .card6 h3{
+                width: 292px;
+                height: 52px;
+                max-width: 640px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 26.4px;
+                margin: 87.5px 60px 6px 60px;
+            }
+            #container .artigo3 .card6 p{
+                width: 292px;
+                height: 90px;
+                max-width: 640px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 17.6px;
+                margin: 6px 60px 87.5px 60px;
+                text-shadow: 2px 2px 5px white;
+            }
+            #container .artigo4{
+                display: block;
+                align-items: center;
+                margin: 0 auto;
+                height: 945px;
+                width: 100%;
+            }
+            #container .artigo4 .card7 {
+                background-image: url("imagens/Frame 305.png");
+                width: 100%;
+                height: 315px;
+                margin: 0 auto;
+                min-width: 400px;
+            }
+            #container .artigo4 .card8 {
+                background-image: url("imagens/Frame 306.png");
+                background-size: cover;
+                width: 480px;
+                height: 315px;
+                margin: 0 auto;
+                min-width: 400px;
+                left: -34px;
+                position: relative;
+            }
+            #container .artigo4 .card9 {
+                background-image: url("imagens/Frame 307.png");
+                width: 100%;
+                height: 315px;
+                margin: 0 auto;
+                min-width: 400px;
+            }
+            #footer {
+                width: 100%;
+                height: 650px;
+                margin: 0 auto;
+            }
+            #footer .menuFooter{
+                flex-direction: column;
+                width: 352px;
+                height: 340px;
+                padding-top: 20px;
+            }
+            #footer .informações{
+                width: 352px;
+                height: 117px;
+                margin: 0 auto;
+                padding-top: 120px;
+            }
+            #footer .menuFooter ul{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            #footer .menuFooter .menuFooter1{
+                width: 352px;
+                height: 105px;
+                margin-bottom: 8px;
+            }
+            #footer .menuFooter .menuFooter2{
+                width: 352px;
+                height: 105px;
+                margin-bottom: 8px;
+            }
+            #footer .menuFooter .menuFooter3{
+                width: 352px;
+                height: 105px;
+                margin-bottom: 8px;
+            }
+        }
