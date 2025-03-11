@@ -218,7 +218,7 @@ body {
 #footer .menuFooter {
     display: flex;
     justify-content: space-between;
-    max-width: 1400px;
+    max-width: 1850px;
     margin: 0 auto 30px;
     padding: 0 30px;
 }
@@ -234,6 +234,7 @@ body {
 
 .redeSociais {
     display: flex;
+    margin-top: 40px;
     gap: 10px;
 }
 
@@ -250,7 +251,7 @@ body {
 }
 
 #footer .informações {
-    max-width: 1400px;
+    max-width: 1850px;
     margin: 0 auto;
     padding: 0 30px;
     font-size: 12px;
@@ -319,7 +320,7 @@ body {
     }
     
     #footer .menuFooter > div {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     
     .container-redeSociais {
